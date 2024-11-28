@@ -24,6 +24,17 @@ sudo apt install -y php
 echo "Instalando Starship..."
 curl -sS https://starship.rs/install.sh | sh
 
+echo "Instalando el entorno de escritorio KDE..."
+sudo apt install -y kde-plasma-desktop
+
+# Instalar el programa Dia
+echo "Instalando Dia..."
+sudo apt install -y dia
+
+# Instalar el programa Umbrello
+echo "Instalando Umbrello..."
+sudo apt install -y umbrello
+
 # Crear un archivo de texto
 echo "Felicidades terminaste el curso" > Happy.txt
 echo "Guion completado"
